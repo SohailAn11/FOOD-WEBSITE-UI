@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* font-family: "Mulish", serif; */
+    /* font-family: "Sansita Swashed", system-ui; */
+     font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    /* font-style: normal; */
+
+}
+
+body {
+    /* overflow-x: hidden; */
+    background-color: #12372A;
+    /* height: 1000px; */
+
+
+}
+
+
+
+/* hr {
+    border: 0;
+    height: 1px;
+    background: #eaeaea;
+    margin: 0px;
+} */
+
+/* CSS Variables */
+
+:root {
+    --primary-text-color: #FBFADA;
+    --secondary-text-color: #ADBC9F;
+
+
+    /* --accent-color: #02abe4;
+    --accent-color-dark: #094e94;
+    --nav-bottom-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --primary-button-color: #02abe4;
+    --secondary-button-color: #0ca1d3; */
+}
