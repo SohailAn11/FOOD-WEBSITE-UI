@@ -8,9 +8,9 @@ html {
     scroll-behavior: smooth;
     /* font-family: "Mulish", serif; */
     /* font-family: "Sansita Swashed", system-ui; */
-     font-family: "Lexend Zetta", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
+    /* font-family: "Lexend Zetta", sans-serif; */
+    /* font-optical-sizing: auto;
+    font-weight: bold; */
     /* font-style: normal; */
 
 }
@@ -45,3 +45,206 @@ body {
     --primary-button-color: #02abe4;
     --secondary-button-color: #0ca1d3; */
 }
+
+/* Header part  */
+
+header {
+    /* height: 100px; */
+    /* width: 100%; */
+    /* border: 2px solid white; */
+    margin-inline: 30px;
+
+
+}
+
+.nav-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* margin-inline: 30px; */
+    margin-top: 10px;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+}
+
+.brand-name>span {
+    font-size: 32px;
+    font-family: "Lexend Zetta", sans-serif;
+    font-weight: bold;
+    color: var(--primary-text-color);
+
+
+}
+
+/* nav-container part  */
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul>li {
+    margin-inline: 32px;
+    /* text-decoration: none; */
+    color: var(--primary-text-color);
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+/* main part  */
+
+.margin-container {
+    margin-inline: 115px;
+}
+
+/* section1  */
+/* main container1 */
+
+.main-container1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 200px; */
+}
+
+.title-content h3 {
+    font-family: "Lexend Zetta", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--secondary-text-color);
+    position: relative;
+    top: 26px;
+    /* letter-spacing: 4px; */
+
+}
+
+.title-content h1 {
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: bold;
+    font-size: 105px;
+    color: var(--primary-text-color);
+    /* line-height: 50px; */
+    /* line-height: 1; */
+    /* height: 170px; */
+
+}
+
+.title-content p {
+    font-family: "Lexend Zetta", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    margin-top: 8px;
+    /* width:910px;
+    height: 246px; */
+
+}
+
+/* .main-container1 */
+/* large burger image part  */
+
+.large-burger-image {
+    position: relative;
+
+}
+
+.large-burger-image img {
+    /* width: 60px; */
+    height: 430px;
+    position: relative;
+    top: 12px;
+    right: 50px;
+    z-index: 99;
+    
+
+}
+
+.img-shadow {
+    width: 448px;
+    height: 42px;
+    border-radius: 100%;
+    /* background: #1f5a4b; */
+    background-color: #0F2D22;
+    position: relative;
+    bottom: 28px;
+    right: 32px;
+
+}
+
+.bg-blur {
+    position: absolute;
+    right: 84px;
+    top: 30px;
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    /* border:1px solid red;
+  color: #4f7f72; */
+    background: radial-gradient(circle,
+            rgba(120, 160, 145, 0.35) 0%,
+            rgba(120, 160, 145, 0.2) 30%,
+            rgba(120, 160, 145, 0.08) 55%,
+            rgba(120, 160, 145, 0) 75%
+            /* rgba(120, 160, 145, 0.35) 0%,
+    rgba(120, 160, 145, 0.2) 40%,
+    rgba(120, 160, 145, 0.08) 60%,
+    rgba(120, 160, 145, 0) 75% */
+        );
+    filter: blur(8px);
+    /* top: 50px;
+  left: 80px; */
+}
+
+/* Section1 bottom images  */
+
+
+.bottom-image-container {
+/* padding-bottom: 100px; */
+padding-left: 114px;
+
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.bottom-image-container div {
+    margin-inline: 7px;
+    
+}
+
+.bottom-image-container div img {
+    height: 82px;
+}
+
+/* section1 dot image  */
+
+.sec1-3dot {
+    padding-top: 30px;
+}
+
+
+.sec1-3dot .dot-image {
+    /* margin-inline: auto; */
+    text-align: center;
+}
+
+.sec1-3dot .dot-image img{
+    height: 12px;
+}
+
+
